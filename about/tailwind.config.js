@@ -2,6 +2,12 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx}'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    padding: {
+      sm: '8px',
+      md: '16px',
+      lg: '24px',
+      xl: '48px'
+    },
     screens: {
       xs: '482px',
       sm: '640px',
@@ -9,12 +15,16 @@ module.exports = {
       mdlg: '900px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1536',
+      '2xl': '1536px',
     },
     extend: {
+      width: {
+        'max': '1280px',
+      },
       fontSize: {
-        base: '16px',
-        'base-larger': '.9rem',
+        'base-smaller': '12px',
+        base: '14px',
+        'base-larger': '16px',
       },
       colors: {
         primary: '#5685F5',
