@@ -5,11 +5,12 @@ import NavItem from './NavItem';
 const Nav = () => {
   return (
     <div className='flex flex-row justify-between align-center space-x-8'>
-      <NavItem path={'/getstarted'}>Get Started</NavItem>
+      <NavItem path={'/getstarted'}>Why Anubis?</NavItem>
       <NavItem path={'/platform'}> Platform </NavItem>
+      <NavItem path={'/educators'}>For Educators</NavItem>
+      <NavItem path={'/students'}>For Students</NavItem>
       <NavItem path={'/blog'}>Blog</NavItem>
-      <div className='border-l-2 border-gray opacity-60'>{" "}</div>
-      <NavItem path={'/redirect?to=signin'}>Sign In</NavItem>
+      <NavItem path={'/community'}>Community</NavItem>
     </div>
   )
 }

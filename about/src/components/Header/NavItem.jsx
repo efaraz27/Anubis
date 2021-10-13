@@ -4,7 +4,7 @@ import {Link} from 'gatsby';
 
 const NavItem = ({path, children}) => {
   return (
-    <div className='hover:text-primary'>
+    <div className='hover:text-primary '>
       <Link to={path}>
         {children}
       </Link>
