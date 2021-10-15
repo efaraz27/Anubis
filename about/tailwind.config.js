@@ -20,6 +20,9 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      maxWidth: {
+        max: '1280px',
+      },
       width: {
         'max': '1280px',
       },
@@ -33,6 +36,7 @@ module.exports = {
         black: '#0D1117',
         gray: '#89929b',
         'gray-2': '#c6cdd5',
+        'gray-3': '#161B22',
         white: '#ECF2F8',
         red: '#FA7970',
         orange: '#FAA356',

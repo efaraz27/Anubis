@@ -8955,6 +8955,11 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-compare-slider@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-compare-slider/-/react-compare-slider-2.1.0.tgz#a77a88ef2825b21b1b001c913339f591c3657272"
+  integrity sha512-cBB9Ih5SHYWXjgH4SXHywvfLJVN0x+8WXdNRTipmt47ju0oxlcCJzuS0XLJ9oC6zwKPD7KZS2sS1/QcnrjZkbw==
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"

@@ -6,9 +6,10 @@ import Footer from '../Footer';
 // import GetStartedModal from '../GetStartedModal';
 
 const root = cntl`
-    w-max
+    max-w-max
     text-white
     text-base
+    pb-lg
 `;
 
 
