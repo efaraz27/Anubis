@@ -38,6 +38,17 @@ def public_courses_list():
     return success_response({"courses": courses})
 
 
+@courses_.route("/get/<string:course_id>")
+@require_user()
+@json_response
+def public_courses_get():
+    """
+    Get course information by course id
+    This required authentication.
+
+    :return:
+    """
+
 @courses_.route("/join/<string:join_code>")
 @require_user()
 @json_response

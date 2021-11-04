@@ -354,6 +354,17 @@ def get_courses(netid: str):
 
 
 @cache.memoize(timeout=60, unless=is_debug)
+def get_course_data(user_id: str, course_id: str) -> Dict[str, Any]:
+    course: Course = Course.query.filter(
+        Course.id == course_id
+    ).first()
+
+    course_data = course.data
+
+    return course_data
+
+
+@cache.memoize(timeout=60, unless=is_debug)
 def get_student_course_ids(user: User, default: str = None) -> List[str]:
     """
     Get the course ids for the courses that the user is in.
